@@ -574,7 +574,7 @@ client.on('message', message => {
     if (message.content.startsWith("ip")) {        
     const embed = new Discord.RichEmbed()
         .setColor("#081070")
-        .setDescription(" 104.47.163.204:30120 :tada:")
+        .setDescription("Sreach For Fivem Rabat City :tada:")
       message.channel.sendEmbed(embed).then(message => {message.delete(90000)});
 }
 });
