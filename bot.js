@@ -4,7 +4,7 @@ const prefix = '%'
 //Dating Gamers Bot By Luca Changretta
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`by Willson  | %help`,"http://twitch.tv/S-F")
+client.user.setGame(`by ATLANTIC  | %help`,"http://twitch.tv/mathematicien")
   console.log('')
   console.log('') 
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -558,8 +558,8 @@ let reaction2Filter = (reaction, user) => reaction.emoji.name === '❌' && user.
 let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
 let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
 reaction1.on("collect", r => {
- client.channels.get("406189462419144745").send(Rembed)
- client.channels.get("406189462419144745").send("<@" + `451068327599669259` + ">" + "<@" +`612281442877177857`+ ">")
+ client.channels.get("704560849091559574").send(Rembed)
+ client.channels.get("704560849091559574").send("@Staff")
     message.reply("**# - Done! 🎇**");
 })
 reaction2.on("collect", r => {
