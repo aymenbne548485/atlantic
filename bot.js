@@ -574,7 +574,7 @@ client.on('message', message => {
     if (message.content.startsWith("ip")) {        
     const embed = new Discord.RichEmbed()
         .setColor("#081070")
-        .setDescription("Look For Rabat City in FiveM :tada:")
+        .setDescription("connect cfx.re/join/mq4dev :tada:")
       message.channel.sendEmbed(embed).then(message => {message.delete(90000)});
 }
 });
