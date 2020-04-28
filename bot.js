@@ -559,7 +559,7 @@ let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
 let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
 reaction1.on("collect", r => {
  client.channels.get("704560849091559574").send(Rembed)
- client.channels.get("704560849091559574").send("@Staff")
+ client.channels.get("704560849091559574").send("<@&704433081045614655>)
     message.reply("**# - Done! 🎇**");
 })
 reaction2.on("collect", r => {
