@@ -202,7 +202,7 @@ client.on('guildMemberAdd', member => {
         .setColor('RANDOM')
         .setThumbnail(memberavatar)
         .addField(':running_shirt_with_sash: | name :  ',`${member}`)
-        .addField(':loudspeaker: | Norther server oh my heart' , `Welcome to Atlantic, ${member}`)
+        .addField(':loudspeaker: | Norther server oh my heart' , `Welcome to NarcosRP, ${member}`)
         .addField(':id: | user :', "**[" + `${member.id}` + "]**" )
                 .addField('| You are the member number',`${member.guild.memberCount}`)
                
